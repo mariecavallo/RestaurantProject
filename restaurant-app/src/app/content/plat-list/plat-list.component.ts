@@ -15,7 +15,7 @@ export class PlatListComponent implements OnInit {
 
   ngOnInit() {
 
-    this.platService.getPlat();
+    this.platService.getPlats();
 
   }
 
